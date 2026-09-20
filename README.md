@@ -1,6 +1,6 @@
 # PipeClient
 
-VB6 working copy of `PipeClient` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Visual Basic Programmer's Guide to the Win32 API. Output: `PipeClnt.exe`. Chapter 14 - Miscellaneous Examples. `VersionCompanyName`: Desaware Inc..
+Desaware VB6 Named Pipe Client (`PipeClnt.exe`, © 1997): Win32 API sample that connects to `\\.\pipe\vbpgpipe1` via `WaitNamedPipe` / `CreateFile` / `PeekNamedPipe` and counts bytes received. Open `Pipeclnt.vbp` in the VB6 IDE (pair with PipeServer).
 
 **Source last updated:** 1997-06-01 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
